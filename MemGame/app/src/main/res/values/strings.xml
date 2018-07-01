@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemGame</string>
+    <string name="btn_start">START</string>
+    <string name="tv_stage">Stage: </string>
+
+
+</resources>
