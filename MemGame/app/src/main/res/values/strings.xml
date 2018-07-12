@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">MemGame</string>
     <string name="btn_start">START</string>
+    <string name="btn_medium_level">Sea level</string>
     <string name="tv_stage">Stage: </string>
+    <string name="dialog_tv_win">Stage Complete!</string>
+    <string name="dialog_tv_lose">Stage Lost!</string>
+    <string name="title_activity_medium_level">MediumLevel</string>
 
 
 </resources>
