@@ -4,10 +4,12 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Point;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.View;
 import android.view.Window;
 import android.view.animation.Animation;
@@ -155,6 +157,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         stage = new Stage(currentLevel, nextStage);
         startGame = new StartGame(stage, this);
     }
+
 
     public void replayStage() {
         startGame = new StartGame(stage, this);
